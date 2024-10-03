@@ -1,0 +1,9 @@
+@startuml location(sprint 1)
+left to right direction
+actor "admin" as ad
+rectangle location {
+  usecase "CONTRACT CRUD" as UC1
+ 
+}
+ad -- UC1
+@enduml
