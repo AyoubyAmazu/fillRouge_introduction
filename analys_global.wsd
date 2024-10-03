@@ -1,0 +1,12 @@
+@startuml location
+left to right direction
+actor "admin" as ad
+rectangle location {
+  usecase "CAR CRUD" as UC1
+  usecase "CONTRACT CRUD" as UC2
+  usecase "emprunt CRUD" as UC3
+}
+ad -- UC1
+ad -- UC2
+ad -- UC3
+@enduml
